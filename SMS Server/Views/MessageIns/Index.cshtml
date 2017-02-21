@@ -1,0 +1,93 @@
+﻿@model IEnumerable<SMS_Server.Models.MessageIn>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Receive Message</h2>
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SendTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReceiveTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageFrom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageTo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SMSC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageText)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageParts)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessagePDU)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gateway)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SendTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReceiveTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageFrom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageTo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SMSC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageText)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageParts)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessagePDU)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gateway)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,85 @@
+﻿@model SMS_Server.Models.SendMessageModels
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Send Messages</h2>
+@using (Html.BeginForm("SaveDataMessage2", "SendMessage", new { @id = "Form" }, FormMethod.Post))
+{
+    @*@Html.DropDownList("MydropDown", (SelectList)ViewBag.DropDownValues)*@
+    @Html.ValidationSummary();
+    @Html.AntiForgeryToken();
+
+    <div class="form-group">
+        <div class="col-md-11">
+            @Html.Label("Choose group: ")
+            @Html.DropDownList("MydropDown", (SelectList)ViewBag.DropDownValues)
+        </div>
+    </div>
+        @*<div class="form-group">
+
+
+                </div>
+            </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MessageText, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="text" id="MessageText" name="MessageText" />
+                @*@Html.EditorFor(model => model.MessageText, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MessageText, "", new { @class = "text-danger" })*@
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Send" class="btn btn-default" />
+            </div>
+        </div>
+
+        }
+
+
+
+        @using (Html.BeginForm("SaveDataMessage", "SendMessage", new { @id = "Form" }, FormMethod.Post))
+        {
+            @Html.ValidationSummary();
+            @Html.AntiForgeryToken();
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MessageTo, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.MessageTo, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MessageTo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MessageFrom, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.MessageFrom, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MessageFrom, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MessageText, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.MessageText, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MessageText, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Send" class="btn btn-default" />
+                </div>
+            </div>
+
+
+
+            @*<input type="submit" value="Save" name="Save"/>*@
+
+        }
+

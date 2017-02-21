@@ -1,0 +1,486 @@
+D:\Projects\SMS Server\SMS Server\bin\roslyn\csc.exe
+D:\Projects\SMS Server\SMS Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\SMS Server\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\SMS Server\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\SMS Server\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\SMS Server\SMS Server\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\SMS Server\SMS Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\SMS Server\SMS Server\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\SMS Server\SMS Server\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\SMS Server\SMS Server\bin\roslyn\vbc.exe
+D:\Projects\SMS Server\SMS Server\bin\roslyn\VBCSCompiler.exe
+D:\Projects\SMS Server\SMS Server\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\SMS Server\SMS Server\bin\SMS Server.dll.config
+D:\Projects\SMS Server\SMS Server\bin\SMS Server.dll
+D:\Projects\SMS Server\SMS Server\bin\SMS Server.pdb
+D:\Projects\SMS Server\SMS Server\bin\Antlr3.Runtime.dll
+D:\Projects\SMS Server\SMS Server\bin\EntityFramework.dll
+D:\Projects\SMS Server\SMS Server\bin\EntityFramework.SqlServer.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.Web.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\SMS Server\SMS Server\bin\Newtonsoft.Json.dll
+D:\Projects\SMS Server\SMS Server\bin\Owin.dll
+D:\Projects\SMS Server\SMS Server\bin\System.Web.Helpers.dll
+D:\Projects\SMS Server\SMS Server\bin\System.Web.Mvc.dll
+D:\Projects\SMS Server\SMS Server\bin\System.Web.Optimization.dll
+D:\Projects\SMS Server\SMS Server\bin\System.Web.Razor.dll
+D:\Projects\SMS Server\SMS Server\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\SMS Server\SMS Server\bin\System.Web.WebPages.dll
+D:\Projects\SMS Server\SMS Server\bin\System.Web.WebPages.Razor.dll
+D:\Projects\SMS Server\SMS Server\bin\WebGrease.dll
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.Web.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\SMS Server\SMS Server\bin\System.Web.Helpers.xml
+D:\Projects\SMS Server\SMS Server\bin\System.Web.Mvc.xml
+D:\Projects\SMS Server\SMS Server\bin\System.Web.Optimization.xml
+D:\Projects\SMS Server\SMS Server\bin\System.Web.Razor.xml
+D:\Projects\SMS Server\SMS Server\bin\System.Web.WebPages.xml
+D:\Projects\SMS Server\SMS Server\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\SMS Server\SMS Server\bin\System.Web.WebPages.Razor.xml
+D:\Projects\SMS Server\SMS Server\bin\Antlr3.Runtime.pdb
+D:\Projects\SMS Server\SMS Server\bin\Newtonsoft.Json.xml
+D:\Projects\SMS Server\SMS Server\bin\EntityFramework.xml
+D:\Projects\SMS Server\SMS Server\bin\EntityFramework.SqlServer.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\SMS Server\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\SMS Server\SMS Server\obj\Debug\SMS Server.csprojResolveAssemblyReference.cache
+D:\Projects\SMS Server\SMS Server\obj\Debug\SMS Server.dll
+D:\Projects\SMS Server\SMS Server\obj\Debug\SMS Server.pdb
+D:\Projects\SMS Server2\SMS Server\obj\Debug\SMS Server.csprojResolveAssemblyReference.cache
+D:\Projects\SMS Server2\SMS Server\obj\Debug\SMS Server.dll
+D:\Projects\SMS Server2\SMS Server\obj\Debug\SMS Server.pdb
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\csc.exe
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\vbc.exe
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\VBCSCompiler.exe
+D:\Projects\SMS Server2\SMS Server\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\SMS Server2\SMS Server\bin\SMS Server.dll.config
+D:\Projects\SMS Server2\SMS Server\bin\SMS Server.dll
+D:\Projects\SMS Server2\SMS Server\bin\SMS Server.pdb
+D:\Projects\SMS Server2\SMS Server\bin\Antlr3.Runtime.dll
+D:\Projects\SMS Server2\SMS Server\bin\EntityFramework.dll
+D:\Projects\SMS Server2\SMS Server\bin\EntityFramework.SqlServer.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.Web.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\SMS Server2\SMS Server\bin\Newtonsoft.Json.dll
+D:\Projects\SMS Server2\SMS Server\bin\Owin.dll
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.Helpers.dll
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.Mvc.dll
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.Optimization.dll
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.Razor.dll
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.WebPages.dll
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.WebPages.Razor.dll
+D:\Projects\SMS Server2\SMS Server\bin\WebGrease.dll
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.Web.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.Helpers.xml
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.Mvc.xml
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.Optimization.xml
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.Razor.xml
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.WebPages.xml
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\SMS Server2\SMS Server\bin\System.Web.WebPages.Razor.xml
+D:\Projects\SMS Server2\SMS Server\bin\Antlr3.Runtime.pdb
+D:\Projects\SMS Server2\SMS Server\bin\Newtonsoft.Json.xml
+D:\Projects\SMS Server2\SMS Server\bin\EntityFramework.xml
+D:\Projects\SMS Server2\SMS Server\bin\EntityFramework.SqlServer.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\SMS Server2\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\111111111\SMS Server\bin\roslyn\csc.exe
+D:\Projects\111111111\SMS Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\111111111\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\111111111\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\111111111\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\111111111\SMS Server\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\111111111\SMS Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\111111111\SMS Server\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\111111111\SMS Server\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\111111111\SMS Server\bin\roslyn\vbc.exe
+D:\Projects\111111111\SMS Server\bin\roslyn\VBCSCompiler.exe
+D:\Projects\111111111\SMS Server\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\111111111\SMS Server\bin\SMS Server.dll.config
+D:\Projects\111111111\SMS Server\bin\SMS Server.dll
+D:\Projects\111111111\SMS Server\bin\SMS Server.pdb
+D:\Projects\111111111\SMS Server\bin\Antlr3.Runtime.dll
+D:\Projects\111111111\SMS Server\bin\EntityFramework.dll
+D:\Projects\111111111\SMS Server\bin\EntityFramework.SqlServer.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.Web.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\111111111\SMS Server\bin\Newtonsoft.Json.dll
+D:\Projects\111111111\SMS Server\bin\Owin.dll
+D:\Projects\111111111\SMS Server\bin\System.Web.Helpers.dll
+D:\Projects\111111111\SMS Server\bin\System.Web.Mvc.dll
+D:\Projects\111111111\SMS Server\bin\System.Web.Optimization.dll
+D:\Projects\111111111\SMS Server\bin\System.Web.Razor.dll
+D:\Projects\111111111\SMS Server\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\111111111\SMS Server\bin\System.Web.WebPages.dll
+D:\Projects\111111111\SMS Server\bin\System.Web.WebPages.Razor.dll
+D:\Projects\111111111\SMS Server\bin\WebGrease.dll
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.Web.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\111111111\SMS Server\bin\System.Web.Helpers.xml
+D:\Projects\111111111\SMS Server\bin\System.Web.Mvc.xml
+D:\Projects\111111111\SMS Server\bin\System.Web.Optimization.xml
+D:\Projects\111111111\SMS Server\bin\System.Web.Razor.xml
+D:\Projects\111111111\SMS Server\bin\System.Web.WebPages.xml
+D:\Projects\111111111\SMS Server\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\111111111\SMS Server\bin\System.Web.WebPages.Razor.xml
+D:\Projects\111111111\SMS Server\bin\Antlr3.Runtime.pdb
+D:\Projects\111111111\SMS Server\bin\Newtonsoft.Json.xml
+D:\Projects\111111111\SMS Server\bin\EntityFramework.xml
+D:\Projects\111111111\SMS Server\bin\EntityFramework.SqlServer.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\111111111\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\111111111\SMS Server\obj\Debug\SMS Server.csprojResolveAssemblyReference.cache
+D:\Projects\111111111\SMS Server\obj\Debug\SMS Server.dll
+D:\Projects\111111111\SMS Server\obj\Debug\SMS Server.pdb
+D:\Projects\SMS_3\SMS Server\bin\roslyn\csc.exe
+D:\Projects\SMS_3\SMS Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\SMS_3\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\SMS_3\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\SMS_3\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\SMS_3\SMS Server\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\SMS_3\SMS Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\SMS_3\SMS Server\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\SMS_3\SMS Server\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\SMS_3\SMS Server\bin\roslyn\vbc.exe
+D:\Projects\SMS_3\SMS Server\bin\roslyn\VBCSCompiler.exe
+D:\Projects\SMS_3\SMS Server\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\SMS_3\SMS Server\bin\SMS Server.dll.config
+D:\Projects\SMS_3\SMS Server\bin\SMS Server.dll
+D:\Projects\SMS_3\SMS Server\bin\SMS Server.pdb
+D:\Projects\SMS_3\SMS Server\bin\Antlr3.Runtime.dll
+D:\Projects\SMS_3\SMS Server\bin\EntityFramework.dll
+D:\Projects\SMS_3\SMS Server\bin\EntityFramework.SqlServer.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.Web.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\SMS_3\SMS Server\bin\Newtonsoft.Json.dll
+D:\Projects\SMS_3\SMS Server\bin\Owin.dll
+D:\Projects\SMS_3\SMS Server\bin\System.Web.Helpers.dll
+D:\Projects\SMS_3\SMS Server\bin\System.Web.Mvc.dll
+D:\Projects\SMS_3\SMS Server\bin\System.Web.Optimization.dll
+D:\Projects\SMS_3\SMS Server\bin\System.Web.Razor.dll
+D:\Projects\SMS_3\SMS Server\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\SMS_3\SMS Server\bin\System.Web.WebPages.dll
+D:\Projects\SMS_3\SMS Server\bin\System.Web.WebPages.Razor.dll
+D:\Projects\SMS_3\SMS Server\bin\WebGrease.dll
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.Web.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\SMS_3\SMS Server\bin\System.Web.Helpers.xml
+D:\Projects\SMS_3\SMS Server\bin\System.Web.Mvc.xml
+D:\Projects\SMS_3\SMS Server\bin\System.Web.Optimization.xml
+D:\Projects\SMS_3\SMS Server\bin\System.Web.Razor.xml
+D:\Projects\SMS_3\SMS Server\bin\System.Web.WebPages.xml
+D:\Projects\SMS_3\SMS Server\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\SMS_3\SMS Server\bin\System.Web.WebPages.Razor.xml
+D:\Projects\SMS_3\SMS Server\bin\Antlr3.Runtime.pdb
+D:\Projects\SMS_3\SMS Server\bin\Newtonsoft.Json.xml
+D:\Projects\SMS_3\SMS Server\bin\EntityFramework.xml
+D:\Projects\SMS_3\SMS Server\bin\EntityFramework.SqlServer.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\SMS_3\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\SMS_3\SMS Server\obj\Debug\SMS Server.csprojResolveAssemblyReference.cache
+D:\Projects\SMS_3\SMS Server\obj\Debug\SMS Server.dll
+D:\Projects\SMS_3\SMS Server\obj\Debug\SMS Server.pdb
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\csc.exe
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\vbc.exe
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\VBCSCompiler.exe
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\SMS Server.dll.config
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\SMS Server.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\SMS Server.pdb
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Antlr3.Runtime.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\EntityFramework.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\EntityFramework.SqlServer.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.Web.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.ApplicationInsights.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Newtonsoft.Json.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Owin.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Helpers.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Mvc.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Optimization.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Razor.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.Deployment.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.Razor.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\WebGrease.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.Web.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.ApplicationInsights.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Helpers.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Mvc.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Optimization.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Razor.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.Deployment.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.Razor.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Antlr3.Runtime.pdb
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Newtonsoft.Json.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\EntityFramework.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\EntityFramework.SqlServer.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\obj\Debug\SMS Server.csprojResolveAssemblyReference.cache
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\obj\Debug\SMS Server.dll
+C:\Users\yh226\Downloads\SMS_3 - Copy (6)\SMS Server\obj\Debug\SMS Server.pdb
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\csc.exe
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\vbc.exe
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\VBCSCompiler.exe
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\SMS Server.dll.config
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\SMS Server.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\SMS Server.pdb
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Antlr3.Runtime.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\EntityFramework.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\EntityFramework.SqlServer.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.DependencyCollector.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.Web.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.WindowsServer.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.ApplicationInsights.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Google.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Newtonsoft.Json.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Owin.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Helpers.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Mvc.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Optimization.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Razor.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.Deployment.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.Razor.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\WebGrease.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.DependencyCollector.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.Web.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AI.WindowsServer.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.ApplicationInsights.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Helpers.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Mvc.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Optimization.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.Razor.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.Deployment.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\System.Web.WebPages.Razor.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Antlr3.Runtime.pdb
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Newtonsoft.Json.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\EntityFramework.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\EntityFramework.SqlServer.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Google.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\obj\Debug\SMS Server.csprojResolveAssemblyReference.cache
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\obj\Debug\SMS Server.dll
+D:\Project\ASP\SMS_3 - Copy (6)\SMS Server\obj\Debug\SMS Server.pdb

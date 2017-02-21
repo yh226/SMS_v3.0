@@ -1,0 +1,155 @@
+﻿@model IEnumerable<SMS_Server.Models.Customer>
+@using SMS_Server.Models;
+@using System.Data;
+@using System.Collections;
+
+<link href="~/Content/gridtableStyle.css" rel="stylesheet" />
+
+@{
+    ViewBag.Title = "Index";
+    //var grid = new WebGrid(source: Model, canPage: true, rowsPerPage: 10);
+    //grid.Pager(WebGridPagerModes.All);
+    WebGrid grid = new WebGrid(source: Model, canPage: true, rowsPerPage: 10);
+}
+
+
+
+<h2>Customer</h2>
+
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@*<div id="content">
+    @grid.GetHtml(
+                tableStyle: "webgrid-table",
+                headerStyle: "webgrid-header",
+                footerStyle: "webgrid-footer",
+                alternatingRowStyle: "webgrid-alternating-row",
+                rowStyle: "webgrid-row-style",
+                columns: grid.Columns(
+                    //here i will add column for serial no
+                    //  grid.Column(header: "Id", format:@<text><div>@(item.WebGrid.Rows.IndexOf(item) + 1)</div></text>),
+
+                    //Id,FirstName,LastName,Mobile,GroupName
+                    grid.Column(columnName: "FirstName", header: "FirstName"),
+                    grid.Column(columnName: "LastName", header: "LastName"),
+                     grid.Column(columnName: "Mobile", header: "Mobile"),
+                      grid.Column(columnName: "GroupName", header: "GroupName")
+                    // grid.Column(header: "Email", format:@<text><a href="mailto:@item.EmailID">@item.EmailID</a></text>),
+                    // grid.Column(header: "Is Active?", format:@<text><input type="checkbox" checked="@item.isActive" disabled="disabled" /></text>)
+                    ))
+</div>*@
+<h2>Customer Data</h2>
+@using (Html.BeginForm("Index", "Customers", new { @id = "Form" }, FormMethod.Post))
+{
+
+    @Html.ValidationSummary();
+    @Html.AntiForgeryToken();
+
+
+    <div class="form-group">
+        @grid.GetHtml(
+     tableStyle: "gridtable",
+     headerStyle: "gridtable",
+     htmlAttributes: new { id = "checkableGrid" },
+
+
+     columns: grid.Columns
+         (
+
+             //Here I am going to add checkbox column
+             grid.Column(
+                 format: @<text> <input type="checkbox" value="@item.Mobile" name="ids" /> </text>,
+                 header: "{checkall}"
+             ),
+             grid.Column("Id", "Id"),
+             grid.Column("FirstName", "First Name"),
+             grid.Column("LastName", "Last Name"),
+             grid.Column("Mobile", "Mobile"),
+             grid.Column("GroupName", "Group")//, @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+
+         // grid.Column("GroupName", "Function")
+         // grid.Column("PostalCode", "Postal Code")
+         )
+
+     )
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-11">
+            @Html.Label("Choose group: ")
+            @Html.DropDownList("MydropDown", (SelectList)ViewBag.DropDownValues)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.Label("Message Text:")
+            <input type="text" id="MessageText" name="MessageText" />
+        </div>
+    </div>
+
+
+    <div class="col-md-11">
+        <input type="submit" value="Send Message" />
+    </div>
+    
+}
+
+@if (ViewBag.Message != null)
+{
+    <div>
+        @ViewBag.Message
+    </div>
+}
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+
+            // 1st replace first column header text with checkbox
+
+            $("#checkableGrid th").each(function () {
+                if ($.trim($(this).text().toString().toLowerCase()) === "{checkall}") {
+                    $(this).text('');
+                    $("<input/>", { type: "checkbox", id: "cbSelectAll", value: "" }).appendTo($(this));
+                    $(this).append("<span>Select All</span>");
+                }
+            });
+
+            //2nd click event for header checkbox for select /deselect all
+            $("#cbSelectAll").live("click", function () {
+                var ischecked = this.checked;
+                $('#checkableGrid').find("input:checkbox").each(function () {
+                    this.checked = ischecked;
+                });
+            });
+
+
+            //3rd click event for checkbox of each row
+            $("input[name='ids']").click(function () {
+                var totalRows = $("#checkableGrid td :checkbox").length;
+                var checked = $("#checkableGrid td :checkbox:checked").length;
+
+                if (checked == totalRows) {
+                    $("#checkableGrid").find("input:checkbox").each(function () {
+                        this.checked = true;
+                    });
+                }
+                else {
+                    $("#cbSelectAll").removeAttr("checked");
+                }
+            });
+
+        });
+    </script>
+}
+
+
+
+
+
+

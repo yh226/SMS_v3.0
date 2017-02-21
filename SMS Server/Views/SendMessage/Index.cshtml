@@ -1,0 +1,178 @@
+﻿@model IEnumerable<SMS_Server.Models.Customer>
+
+    
+    @using SMS_Server.Models;
+    @using System.Data;
+    @using System.Collections;
+
+    <link href="~/Content/gridtableStyle.css" rel="stylesheet" />
+
+    @{
+        ViewBag.Title = "Index";
+        //var grid = new WebGrid(source: Model, canPage: true, rowsPerPage: 10);
+        //grid.Pager(WebGridPagerModes.All);
+        WebGrid grid = new WebGrid(source: Model, canPage: true, rowsPerPage: 10);
+    }
+
+    <h2>Customer Data</h2>
+    @using (Html.BeginForm("Index", "SendMessage", new { @id = "Form" }, FormMethod.Post))
+    {
+
+        @Html.ValidationSummary();
+        @Html.AntiForgeryToken();
+
+
+        <div class="form-group">
+            @grid.GetHtml(
+     tableStyle: "gridtable",
+     headerStyle: "gridtable",
+     htmlAttributes: new { id = "checkableGrid" },
+
+
+     columns: grid.Columns
+         (
+
+             //Here I am going to add checkbox column
+             grid.Column(
+                 format: @<text> <input type="checkbox" value="@item.Mobile" name="ids" /> </text>,
+                 header: "{checkall}"
+             ),
+             grid.Column("Id", "Id"),
+             grid.Column("FirstName", "First Name"),
+             grid.Column("LastName", "Last Name"),
+             grid.Column("Mobile", "Mobile"),
+             grid.Column("GroupName", "Group")//, @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+
+         // grid.Column("GroupName", "Function")
+         // grid.Column("PostalCode", "Postal Code")
+         )
+
+     )
+        </div>
+
+        @*<div class="form-group">
+                <div class="col-md-11">
+                    @Html.Label("Choose group: ")
+                    @Html.DropDownList("MydropDown", (SelectList)ViewBag.DropDownValues)
+                </div>
+            </div>*@
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.Label("Message From:")
+                <input type="text" id="MessageFrom" name="MessageFrom" class = "form-control"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.Label("Message Text:")
+                <input type="text" id="MessageText" name="MessageText" class = "form-control"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-11">
+                <input type="submit" value="Send Message" class="btn btn-default" />
+            </div>
+        </div>
+            <br />
+ }
+            <br />
+            @if (ViewBag.Message != null)
+            {
+                <div>
+                    @ViewBag.Message
+                </div>
+            }
+
+            @section Scripts{
+                <script>
+                    $(document).ready(function () {
+
+                        // 1st replace first column header text with checkbox
+
+                        $("#checkableGrid th").each(function () {
+                            if ($.trim($(this).text().toString().toLowerCase()) === "{checkall}") {
+                                $(this).text('');
+                                $("<input/>", { type: "checkbox", id: "cbSelectAll", value: "" }).appendTo($(this));
+                                $(this).append("<span>Select All</span>");
+                            }
+                        });
+
+                        //2nd click event for header checkbox for select /deselect all
+                        $("#cbSelectAll").live("click", function () {
+                            var ischecked = this.checked;
+                            $('#checkableGrid').find("input:checkbox").each(function () {
+                                this.checked = ischecked;
+                            });
+                        });
+
+
+                        //3rd click event for checkbox of each row
+                        $("input[name='ids']").click(function () {
+                            var totalRows = $("#checkableGrid td :checkbox").length;
+                            var checked = $("#checkableGrid td :checkbox:checked").length;
+
+                            if (checked == totalRows) {
+                                $("#checkableGrid").find("input:checkbox").each(function () {
+                                    this.checked = true;
+                                });
+                            }
+                            else {
+                                $("#cbSelectAll").removeAttr("checked");
+                            }
+                        });
+
+                    });
+                </script>
+            }
+
+            @*////////////////////////////////////////////////////*@
+            <br />
+           
+            @using (Html.BeginForm("SaveDataMessage", "SendMessage", new { @id = "Form" }, FormMethod.Post))
+            {
+                @Html.ValidationSummary();
+                @Html.AntiForgeryToken();
+
+
+                <div class="form-group">
+                    @Html.Label("MessageTo", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <input type="text" id="MessageTo" name="MessageTo" class="form-control" />
+                        @*@Html.EditorFor(tuple => tuple.Item2.MessageTo, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(tuple => tuple.Item2.MessageTo, "", new { @class = "text-danger" })*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.Label("MessageFrom", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <input type="text" id="MessageFrom" name="MessageFrom" class="form-control" />
+                        @*@Html.EditorFor(tuple => tuple.Item2.MessageFrom, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(tuple => tuple.Item2.MessageFrom, "", new { @class = "text-danger" })*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.Label("MessageText", htmlAttributes: new { @class = "control-label col-md-2" })
+                    @*@Html.LabelFor(tuple => tuple.Item2.MessageText, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <div class="col-md-10">
+                        <input type="text" id="MessageText" name="MessageText" class="form-control" />
+                        @*@Html.EditorFor(tuple => tuple.Item2.MessageText, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(tuple => tuple.Item2.MessageText, "", new { @class = "text-danger" })*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-11">
+                        <input type="submit" value="Send" class="btn btn-default" />
+                    </div>
+                </div>
+
+                <br />
+
+                @*<input type="submit" value="Save" name="Save"/>*@
+
+            }

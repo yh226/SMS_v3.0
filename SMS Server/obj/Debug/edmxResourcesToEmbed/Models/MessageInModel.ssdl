@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MessagInModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MessageIn">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SendTime" Type="date" />
+    <Property Name="ReceiveTime" Type="date" />
+    <Property Name="MessageFrom" Type="text" />
+    <Property Name="MessageTo" Type="text" />
+    <Property Name="SMSC" Type="text" />
+    <Property Name="MessageText" Type="money" />
+    <Property Name="MessageType" Type="text" />
+    <Property Name="MessageParts" Type="int" />
+    <Property Name="MessagePDU" Type="money" />
+    <Property Name="Gateway" Type="text" />
+    <Property Name="UserId" Type="text" />
+  </EntityType>
+  <EntityContainer Name="MessagInModelStoreContainer">
+    <EntitySet Name="MessageIn" EntityType="Self.MessageIn" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

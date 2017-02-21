@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MessagInModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="MessageIn">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SendTime" Type="DateTime" Precision="0" />
+    <Property Name="ReceiveTime" Type="DateTime" Precision="0" />
+    <Property Name="MessageFrom" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MessageTo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="SMSC" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MessageText" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MessageType" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MessageParts" Type="Int32" />
+    <Property Name="MessagePDU" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Gateway" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="UserId" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="MessageInContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="MessageIns" EntityType="Self.MessageIn" />
+  </EntityContainer>
+</Schema>

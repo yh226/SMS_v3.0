@@ -1,0 +1,135 @@
+﻿@model IEnumerable<SMS_Server.Models.Customer>
+@using SMS_Server.Models;
+@using System.Data;
+
+@{
+    ViewBag.Title = "Index";
+    DBModels db = new DBModels();
+}
+
+
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+
+
+
+@using (Html.BeginForm("Send", "Customers", new { @id = "Form" }, FormMethod.Post))
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GroupName)
+            </th>
+            <th>
+                @Html.CheckBox("Select All")
+                <label>Select All</label>
+            </th>
+            <th></th>
+        </tr>
+
+
+        @foreach (var item in Model)
+       
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mobile)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GroupName)
+                </td>
+                <td>
+                    @*@Html.HiddenFor(modelItem => item.Id)
+                    @Html.CheckBoxFor(modelItem => item.isSelect)
+                    @Html.DisplayFor(modelItem => item.Id)*@
+                
+                   
+
+                   @using (Html.BeginForm("setSelected", "Customers", new { @id = "Form" }, FormMethod.Post))
+                   {
+                    @Html.ValidationMessageFor(modelItem => item.Id, "", new { @class = "text-danger" })
+                        <input id="targetId" type="checkbox" value="true" name="targetId" />
+
+                   }
+
+               
+
+       
+            
+    
+
+
+
+                </td>
+                <td>
+                    @*@Html.CheckBox(item.Id.ToString(), false)
+                        <label>@item.Id</label>|
+                        <input id="responsable" value="True" name="checkResp" type="checkbox" />*@
+                    @*@Html.CheckBoxFor(modelItem => item.Id)|*@
+                    @*@Html.DisplayFor(modelItem => item.Id)*@
+                    @*@Html.ValidationMessageFor(modelItem => item.Id, "", new { @class = "text-danger" })
+                        <input id="targetId" type="checkbox" value="true" name="targetId" />|*@
+                    @*<input type="hidden" value="false" name="Remember" /> |*@
+
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+
+
+    </table>
+
+
+    @Html.ValidationSummary();
+    @Html.AntiForgeryToken();
+
+    <div class="form-group">
+        <div class="col-md-11">
+            @Html.Label("Choose group: ")
+            @Html.DropDownList("MydropDown", (SelectList)ViewBag.DropDownValues)
+        </div>
+    </div>
+    @*<div class="form-group">
+
+
+            </div>
+        </div>*@
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.Label("Choose group: ")
+            @Html.Label("", htmlAttributes: new { @class = "control-label col-md-2" })
+            <input type="text" id="MessageText" name="MessageText" />
+            @*@Html.EditorFor(model => model.MessageText, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MessageText, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Send" class="btn btn-default" />
+    </div>
+}

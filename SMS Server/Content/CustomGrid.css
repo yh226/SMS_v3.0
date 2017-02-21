@@ -1,0 +1,114 @@
+﻿
+
+.table-pagination-grid {
+        width: 100%;
+        margin-top: 20px;
+    }
+        .table-pagination-grid tr:hover {
+            background-color: #d5effc !important;
+        }
+        .table-pagination-grid tr:nth-child(2n+1) {
+            background: #EEEEEE;
+        }
+
+
+        .table-pagination-grid td {
+            border: 0px solid #EEEEEE;
+        }
+
+        .table-pagination-grid th {
+            background: #0E4E91;
+            border: 0px solid #EEEEEE;
+            color: #FFFFFF;
+        }
+
+            .table-pagination-grid th:hover {
+                cursor: pointer;
+            }
+
+            .table-pagination-grid .vhover{                
+                background:#488FFE;
+            }
+            .table-pagination-grid .vasc{
+                
+                background: url("Icon/up.png") no-repeat scroll center top #488FFE;
+            }
+
+            .table-pagination-grid .vdesc{
+               background: url("Icon/dn.png") no-repeat scroll center top #488FFE;
+            }
+
+           
+
+    #pagination-f .pDiv {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background: #EEEEEE;
+        border-color: -moz-use-text-color rgb(209, 209, 209) rgb(209, 209, 209);
+        border-image: none;
+        border-right: 1px solid rgb(209, 209, 209);
+        border-style: none solid solid;
+        border-width: 0 1px 1px;
+        overflow: hidden;
+        position: relative;
+        white-space: nowrap;
+    }
+
+        #pagination-f .pDiv div.pDiv2 {
+            float: left;
+            margin: 3px 3px 3px -2px;
+            width: 1024px;
+        }
+
+    #pagination-f .pGroup {
+        background: none repeat scroll 0 0 transparent;
+        float: left;
+        height: 24px;
+        margin: 0 5px;
+    }
+
+
+    #pagination-f .btnseparator {
+        border-left: 1px solid rgb(209, 209, 209);
+        border-right: 1px solid rgb(255, 255, 255);
+        float: left;
+        height: 22px;
+        margin: 1px;
+    }
+
+    #pagination-f .pDiv div.pButtonf {
+        border: 0 none;
+        cursor: pointer;
+        float: left;
+        height: 22px;
+        overflow: hidden;
+        width: 22px;
+    }
+
+    .pFirstf {
+        background: url("Icon/first.gif") no-repeat;
+    }
+
+    .pPrevf {
+        background: url("Icon/prev.gif") no-repeat;
+    }
+
+    #pagination-f .pDiv .pPageStat, .flexigrid div.pDiv .pcontrol {
+        overflow: visible;
+        position: relative;
+        top: 5px;
+    }
+
+    .pNextf {
+        background: url("Icon/next.gif") no-repeat;
+    }
+
+    .pLastf {
+        background: url("Icon/last.gif") no-repeat;
+    }
+
+    .pReloadf {
+        background: url("Icon/load.png") no-repeat;
+    }

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MessagInModelStoreContainer" CdmEntityContainer="MessageInContext">
+    <EntitySetMapping Name="MessageIns">
+      <EntityTypeMapping TypeName="MessagInModel.MessageIn">
+        <MappingFragment StoreEntitySet="MessageIn">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+          <ScalarProperty Name="ReceiveTime" ColumnName="ReceiveTime" />
+          <ScalarProperty Name="MessageFrom" ColumnName="MessageFrom" />
+          <ScalarProperty Name="MessageTo" ColumnName="MessageTo" />
+          <ScalarProperty Name="SMSC" ColumnName="SMSC" />
+          <ScalarProperty Name="MessageText" ColumnName="MessageText" />
+          <ScalarProperty Name="MessageType" ColumnName="MessageType" />
+          <ScalarProperty Name="MessageParts" ColumnName="MessageParts" />
+          <ScalarProperty Name="MessagePDU" ColumnName="MessagePDU" />
+          <ScalarProperty Name="Gateway" ColumnName="Gateway" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

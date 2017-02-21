@@ -1,0 +1,300 @@
+﻿@using System.Web.Mvc;
+@using System.Data;
+@using System.Collections;
+@using System.Web.Script.Serialization;
+@using System.Web.Helpers;
+@using SMS_Server.Models;
+
+
+
+
+
+
+
+@*Script for Pagination Grid *@
+
+@helper CallGridContent(string Url, string Container, ArrayList Header = null, Dictionary<string, string> Data = null, int Page = 1, int Rows = 10)
+{
+
+    var OptionData = "";
+    if (Data != null)
+    {
+        int i = 0;
+        foreach (KeyValuePair<string, string> pair in Data)
+        {
+
+            OptionData += (i != 0 ? "&" : "") + (pair.Key + "=" + pair.Value);
+            i++;
+        }
+    }
+    var OptionDatas = new System.Web.HtmlString(OptionData);
+
+    var GridHeaders = "";
+    var semi = "";
+
+    if (Header != null)
+    {
+        foreach (Dictionary<string, string> header in Header)
+        {
+            GridHeaders += semi + "{";
+            var semiin = "";
+            foreach (KeyValuePair<string, string> pair in header)
+            {
+                string value = pair.Key == "editoptions" || pair.Key == "editable" || pair.Key == "key" || pair.Key == "search" || pair.Key == "sortable" || pair.Key == "hidden" || pair.Key == "resizable" ? pair.Value : "\"" + pair.Value + "\"";
+                GridHeaders += semiin + "\"" + pair.Key + "\":" + value;
+                semiin = ",";
+            }
+            GridHeaders += "}";
+            semi = ",";
+
+        }
+    }
+
+    var GridHeader = new System.Web.HtmlString(GridHeaders);
+
+
+    <script type="text/javascript">
+
+
+        function PaginationGrid() {
+
+            var PageData = '<div id="pagination-f" style="margin: 0; padding: 0; overflow-x: hidden;">' +
+                                    '<div class="pDiv">' +
+                                        '<div class="pDiv2">' +
+                                            '<div class="pGroup">' +
+                                            '    <div class="pSearch pButton" style="display: none;"><span></span></div>' +
+                                            '</div>' +
+                                           ' <div class="btnseparator"></div>' +
+                                            '<div class="pGroup">' +
+                                                '<select name="rp" id="selecet-rp">' +
+                                                   ' <option selected="selected" value="10">10&nbsp;&nbsp;</option>' +
+                                                   ' <option value="15">15&nbsp;&nbsp;</option>' +
+                                                   ' <option value="20">20&nbsp;&nbsp;</option>' +
+                                                   ' <option value="30">30&nbsp;&nbsp;</option>' +
+                                                   ' <option value="50">50&nbsp;&nbsp;</option>' +
+                                                   ' <option value="100">100&nbsp;&nbsp;</option>' +
+                                                   ' <option value="150">150&nbsp;&nbsp;</option>' +
+                                                   ' <option value="200">200&nbsp;&nbsp;</option>' +
+                                               ' </select> <input type="hidden" id="row-num" /> ' +
+                                           ' </div>' +
+                                            '<div class="btnseparator"></div>' +
+                                            '<div class="pGroup">' +
+                                                '<div class="pFirstf pButtonf" id="first"><span></span></div>' +
+                                                '<div class="pPrevf pButtonf" id="prev"><span></span></div>' +
+                                            '</div> <div class="btnseparator"></div>' +
+                                            '<div class="pGroup">' +
+                                             '   <span class="pcontrol">Page <span id="page-defaul">1</span> of <span id="page-sum">6</span></span>' +
+                                           ' </div>' +
+                                            '<div class="btnseparator"></div>' +
+                                           ' <div class="pGroup">' +
+                                               ' <div class="pNextf pButtonf" id="next"><span></span></div>' +
+                                                '<div class="pLastf pButtonf" id="last"><span></span></div>' +
+                                            '</div> <div class="btnseparator"></div>' +
+                                            '<div class="pGroup">' +
+                                                '<div class="pReloadf pButtonf" id="pReloadf"><span></span></div>' +
+                                            '</div> <div class="btnseparator"></div>' +
+                                            '<div class="pGroup"><span class="pPageStat">Displaying <span id="fpage">1</span> to <span id="of-page">30</span> of <span id="all-record">100</span> items</span></div>' +
+                                       ' </div>' +
+
+                                   ' </div>' +
+                               ' </div>';
+
+            return PageData;
+        }
+
+        function LoadContentDataGrid(Url, Container, Data, ColField) {
+            data = (function () {
+                var json = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': Url,
+                    'dataType': "json",
+                    'data': Data,
+                    'success': function (data) {
+                        json = data;
+
+
+                        //=== add thbody data ===
+                        var td = '';
+                        $.each(data.Rows, function (i, colr) {
+                            td += '<tr><td width="5px" align="center"><input type="checkbox" class="checkbox-one-data" /></td>';
+                            var cell = colr.cell;
+                            $.each(ColField, function (y, field) {
+
+                                var align = field.align ? ' align="' + field.align + '" ' : '';
+                                var fields = field.index ? 'index="' + field.index + '" ' : '';
+                                var width = field.width ? 'width="' + field.width + '" ' : '';
+                                var editable = field.editable ?'editable="'+field.editable+'" ' : '';
+                                var hidden = "";
+                                if (field.hidden) {
+                                    hidden += "style='display:none'";
+                                }
+                               
+                                td += '<td ' + align + ' ' + fields + ' ' + width + ' ' + hidden + ' ' + editable + '>' + cell[y] + '</td>';
+                            });
+                            td += '</tr>';
+
+                        });
+
+                        $(Container).find('.tbody-page').html(td);
+
+                        //===== add value to pagination ======
+                        $(Container).find('#page-defaul').html(data.Page);
+                        $(Container).find('#page-sum').html(data.Total);
+                        $(Container).find('#selecet-rp').val(data.Rowselect);
+                        var sumpage = (data.Page - 1) * data.Rowselect + 1;
+
+                        $(Container).find('#fpage').html(sumpage);
+                        $(Container).find('#of-page').html(sumpage + data.Rowselect - 1);
+                        $(Container).find('#all-record').html(data.Records);
+                        if (data.Rowselect > data.Records) { $(Container).find('#of-page').html(data.Records); } else {
+                            $(Container).find('#of-page').html(sumpage + data.Rows.length - 1);
+                        }
+                        //====
+
+                    }
+                });
+                return json;
+            })();
+        }
+
+
+        function MainShowPaginationGrid(ColField, Container) {
+            //==== Theader ====
+            var th = '<tr><th width="5px" align="center"><input type="checkbox" class="checkbox-all" /></th>';
+            $.each(ColField, function (ii, col) {
+                if (!col.hidden) {
+                    th += '<th  sortder="asc" index="' + col.index + '" class="th-sortable">' + col.name + '</th>';
+                }
+            });
+            th += '</tr>';
+            //===
+            var tabale = '<div id="content"><table class="table-pagination-grid">' +
+                                          '<thead calss="thead-page">' + th + '</thead>' +
+                                          '<tbody class="tbody-page"></tbody>' +
+                                   '</table></div>';
+            var pagination = '<div id="pagination-show" >' + PaginationGrid() + '</div>';
+
+
+            $(Container).html(tabale + pagination);
+        }
+
+
+        $(function () {
+            var OptionData = "@OptionDatas";
+            var ColField = [@GridHeader];
+            var Url = "@Url" + "?" + OptionData;
+            var Container = "@Container";
+            var Data = { Page: "@Page", Rows: "@Rows" };
+
+
+            MainShowPaginationGrid(ColField, Container);
+            LoadContentDataGrid(Url, Container, Data, ColField);
+            GridCallBack();
+
+            $(Container).delegate('.th-sortable', 'hover', function () {
+                $(this).addClass('vhover');
+            });
+
+            $(Container).delegate('.th-sortable', 'mouseleave', function () {
+                $(this).removeClass('vasc');
+                $(this).removeClass('vdesc');
+                $(this).removeClass('vhover');
+            });
+
+            //===== Event on Pager Next,Prev,First,Last of button ====
+            $(Container).delegate('#first,#prev,#next,#last', 'click', function () {
+                var thisId = $(this).attr('id');
+                
+                //Display_Load();
+                var cp = $(Container).find('#page-defaul').html()-0,
+                 last = ($(Container).find('#page-sum').html()-0), selclick = false,
+                fp = true, pp = true, np = true, lp = true; 
+                if (last === 0 || last === 1) {
+                    fp = false; pp = false; np = false; lp = false;
+                }
+                else if (last > 1 && cp >= 1) {
+                    if (cp === 1) {
+                        fp = false; pp = false;
+                    }
+                        //else if( cp>1 && cp <last){ }
+                    else if (cp === last) {
+                        np = false; lp = false;
+                    }
+                } else if (last > 1 && cp === 0) { np = false; lp = false; cp = last - 1; }
+                if (thisId === 'first' && fp) { var firstp = 1; selclick = true; $(Container).find('#page-defaul').html(firstp); }
+                if (thisId === 'prev' && pp) { var prevp = (cp - 1); selclick = true; $(Container).find('#page-defaul').html(prevp); }
+                if (thisId === 'next' && np) { var nextp = (cp + 1); selclick = true; $(Container).find('#page-defaul').html(nextp);  }
+                if (thisId === 'last' && lp) { var lastp = last; selclick = true; $(Container).find('#page-defaul').html(lastp); }
+
+                if (selclick) {
+                   
+                    if (!thisId) { return false; }
+                    var objectX = { Page: $(Container).find('#page-defaul').html(), Rows: $(Container).find('#selecet-rp').val() };
+                    LoadContentDataGrid(Url, Container, objectX, ColField);
+                    GridCallBack();
+                }
+
+                return false;
+            });
+
+            //==== Page Reload =======
+            $(Container).delegate('#pReloadf', 'click', function () {
+                var objectX = { Page: $(Container).find('#page-defaul').html(), Rows: $(Container).find('#selecet-rp').val() };
+                LoadContentDataGrid(Url, Container, objectX, ColField);
+                GridCallBack();
+            });
+
+            //=== select page number ===
+            $(Container).delegate('#selecet-rp', 'click', function () {
+                $(Container).find('#row-num').val(this.value);
+            });
+
+            $(Container).delegate('#selecet-rp', 'change', function () {
+                var RowSelect = $(this).val();
+                var RowNum = $(Container).find('#row-num').val();
+                var Page = Math.round(RowNum * (data.Page - 1) / this.value - 0.5) + 1;
+
+                var objectX = { Page: Page, Rows: RowSelect };
+                LoadContentDataGrid(Url, Container, objectX, ColField);
+                GridCallBack();
+            });
+
+
+            //== Sort page =======
+            $(Container).delegate('.th-sortable', 'click', function () {
+                var SortField = $(this).attr('index');
+                var SortBy = $(this).attr('sortder');
+                SortBy == 'asc' ? $(this).attr('sortder', 'desc') : $(this).attr('sortder', 'asc');
+                if (SortBy == 'asc') { $(this).addClass('vdesc'); $(this).removeClass('vasc'); } else { $(this).removeClass('vdesc'); $(this).addClass('vasc'); }
+                var objectX = { Page: $(Container).find('#page-defaul').html(), Rows: $(Container).find('#selecet-rp').val(), SortField: SortField, SortBy: SortBy };
+                LoadContentDataGrid(Url, Container, objectX, ColField);
+                GridCallBack();
+            });
+
+            
+            //== event on check bok all ==
+            $(Container).delegate('.checkbox-all', 'click', function () {
+
+                if (this.checked == true) {
+                    //check
+                    $(Container).find(".checkbox-one-data:not(:checked)").attr('checked', true);
+                } else {
+                    $(Container).find(".checkbox-one-data:checked").attr('checked', false);
+                }
+            });
+
+          
+        });
+
+        function GridCallBack() {
+            return false;
+        }
+
+     
+    </script>
+
+}
+
+@*END Script for Pagination Grid *@
